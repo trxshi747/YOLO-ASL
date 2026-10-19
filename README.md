@@ -37,7 +37,12 @@
 
 ## Demo
 
-https://github.com/user-attachments/assets/3fbbdf81-c246-4806-82ed-11375b6eb0c0
+
+
+https://github.com/user-attachments/assets/dc68b3f7-2d2f-4161-9457-cf2a2db030a8
+
+
+
 
 The recording shows the model running live on a webcam stream: each frame is passed to the detector, the hand is boxed and the predicted ASL letter is drawn on top of the image in real time.
 
