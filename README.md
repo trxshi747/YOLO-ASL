@@ -37,9 +37,7 @@
 
 ## Demo
 
-<p align="center">
-  <a href="https://github.com/trxshi747/YOLO-ASL-Preprocessed-DataSet/raw/main/demo/asl-webcam-demo.mp4"><b>Watch the demo video</b></a> (screen recording, about 2 MB)
-</p>
+https://github.com/user-attachments/assets/3fbbdf81-c246-4806-82ed-11375b6eb0c0
 
 The recording shows the model running live on a webcam stream: each frame is passed to the detector, the hand is boxed and the predicted ASL letter is drawn on top of the image in real time.
 
