@@ -38,12 +38,10 @@
 ## Demo
 
 <p align="center">
-  <video src="https://github.com/trxshi747/YOLO-ASL-Preprocessed-DataSet/raw/main/demo/asl-webcam-demo.mp4" controls muted width="760">
-    Your browser does not support embedded video. Download it from <a href="demo/asl-webcam-demo.mp4">demo/asl-webcam-demo.mp4</a>.
-  </video>
+  <a href="https://github.com/trxshi747/YOLO-ASL-Preprocessed-DataSet/blob/main/demo/asl-webcam-demo.mp4"><b>Watch the demo video</b></a> (screen recording, about 2 MB)
 </p>
 
-The video shows the model running live on a webcam stream: each frame is passed to the detector, the hand is boxed and the predicted ASL letter is drawn on top of the image in real time.
+The recording shows the model running live on a webcam stream: each frame is passed to the detector, the hand is boxed and the predicted ASL letter is drawn on top of the image in real time.
 
 ---
 
