@@ -5,10 +5,10 @@
 **YOLO26 object detection model trained to locate a hand and classify its ASL letter, shipped with a preprocessed YOLO-format dataset, trained weights, the full training notebook and a live webcam demo.**
 
 <p align="center">
-  <strong>Demo Video:</strong> <a href="https://github.com/trxshi747/YOLO-ASL-Preprocessed-DataSet/raw/main/demo/asl-webcam-demo.mp4">demo/asl-webcam-demo.mp4</a>
+  <strong>Demo Video:</strong> <a href="https://github.com/trxshi747/YOLO-ASL/raw/main/demo/asl-webcam-demo.mp4">demo/asl-webcam-demo.mp4</a>
 </p>
 
-[![Repository](https://img.shields.io/badge/GitHub-trxshi747%2FYOLO--ASL--Preprocessed--DataSet-181717?style=for-the-badge&logo=github)](https://github.com/trxshi747/YOLO-ASL-Preprocessed-DataSet)
+[![Repository](https://img.shields.io/badge/GitHub-trxshi747%2FYOLO--ASL-181717?style=for-the-badge&logo=github)](https://github.com/trxshi747/YOLO-ASL)
 [![Ultralytics YOLO26](https://img.shields.io/badge/Ultralytics-YOLO26-111F68?style=for-the-badge&logo=yolo&logoColor=white)](https://docs.ultralytics.com/)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
@@ -138,16 +138,16 @@ flowchart TD
 The `weights/` folder and the dataset are large. To fetch only the code, the scripts and the demo, use a partial clone:
 
 ```bash
-git clone --filter=blob:none --sparse https://github.com/trxshi747/YOLO-ASL-Preprocessed-DataSet.git
-cd YOLO-ASL-Preprocessed-DataSet
+git clone --filter=blob:none --sparse https://github.com/trxshi747/YOLO-ASL.git
+cd YOLO-ASL
 git sparse-checkout set --no-cone /README.md /webcam.py /tets.py /notebooks /demo /weights
 ```
 
 To get everything, including the full dataset:
 
 ```bash
-git clone https://github.com/trxshi747/YOLO-ASL-Preprocessed-DataSet.git
-cd YOLO-ASL-Preprocessed-DataSet
+git clone https://github.com/trxshi747/YOLO-ASL.git
+cd YOLO-ASL
 ```
 
 ### 3. Install Dependencies
@@ -276,7 +276,7 @@ The fine-tuned metrics are measured on the validation split of the fine-tuning d
 ## Repository Structure
 
 ```text
-YOLO-ASL-Preprocessed-DataSet/
+YOLO-ASL/
 ├── README.md                  # Project documentation
 ├── webcam.py                  # Real-time webcam inference with OpenCV and YOLO
 ├── tets.py                    # Utility that lists the available camera ports
